@@ -1,0 +1,28 @@
+{
+    "name": "project-community-edition/blog",
+    "description": "N/A",
+    "authors": [
+        {
+            "name": "Anastasiia Sadovska",
+            "email": "qinmrs@gmail.com"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "2.4.3",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\": "app/code/Magento/",
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
+            "Magento\\Setup\\": "setup/src/Magento/Setup/"
+        }
+    }
+}
